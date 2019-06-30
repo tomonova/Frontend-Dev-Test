@@ -1,0 +1,425 @@
+html {
+  scroll-behavior: smooth;
+}
+
+#logo {
+  margin-right: 75px;
+  mix-blend-mode: multiply;
+}
+.navbar .navitem {
+  font-size: 1.1rem;
+  padding-right: 2rem;
+}
+.moj-navbar {
+  background-color: transparent;
+  transition: 550ms;
+}
+.moj-navbar .nav-link {
+  color: white;
+}
+.moj-navbar .nav-link:hover {
+  color: gray;
+}
+.moj-navbar.scrolled {
+  background: white;
+  border-bottom: 2px solid gray;
+}
+.moj-navbar.scrolled .nav-link {
+  color: gray;
+}
+.moj-navbar.scrolled .nav-link:hover {
+  color: black;
+}
+.fas.fa-bars {
+  color: white;
+}
+.moj-navbar.scrolled .fas.fa-bars {
+  color: gray;
+}
+
+.bg {
+  background-image: url("https://media.giphy.com/media/L1ge3nIyrXt6/giphy.gif");
+  height: 80vh;
+  background-position: center bottom;
+  background-repeat: norepeat;
+  background-size: cover;
+}
+.bg .dark-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 80vh;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+#sectionID {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 22px;
+  font-weight: lighter;
+  margin-left: 8em;
+  margin-right: 8em;
+  text-align: center;
+  color: gray;
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border-top: 2px solid rgb(27, 136, 187);
+  margin-bottom: 4em;
+  width: 10em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#DeliveryText {
+  text-align: left;
+  margin-left: 8em;
+  margin-right: 8em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+  font-weight: lighter;
+  color: grey;
+}
+#fatop4 {
+  color: rgb(27, 136, 187);
+}
+#fatext {
+  text-align: left;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: lighter;
+  font-size: 13px;
+}
+
+#galerija {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 22px;
+  font-weight: lighter;
+  margin-left: 8em;
+  margin-right: 8em;
+  text-align: center;
+}
+
+.gallery-block {
+  padding-bottom: 60px;
+  padding-top: 60px;
+}
+
+.gallery-block.compact-gallery .item {
+  overflow: hidden;
+  margin-bottom: 0;
+}
+
+.gallery-block.compact-gallery .item .image {
+  transition: 0.3s ease-in-out;
+}
+
+.img-fluid {
+  overflow: hidden;
+}
+
+.zoom-on-hover {
+  transition: 0.3s ease-in-out;
+  height: auto;
+  width: auto;
+}
+.image {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.plavakocka {
+  width: 40px;
+  height: 40px;
+  background: rgb(27, 136, 187);
+  border-radius: 4px;
+  position: relative;
+}
+
+.broj {
+  color: white;
+  text-align: center;
+  transform: translateY(7%);
+}
+#apptext {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+  font-weight: lighter;
+  color: gray;
+}
+
+#ourcities {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+  font-weight: lighter;
+  color: gray;
+}
+#ourcities .fas {
+  color: rgb(27, 136, 187);
+}
+#ourcities .fab {
+  color: rgb(27, 136, 187);
+}
+.paralax-overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+}
+.paralax-background {
+  width: 100%;
+  height: 700px;
+  background: url(../img/blueberry.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  position: relative;
+  overflow: hidden;
+}
+
+#paralaxID {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 22px;
+  font-weight: lighter;
+  margin-left: 8em;
+  margin-right: 8em;
+  text-align: center;
+  color: white;
+}
+.paralax-background .fas {
+  color: white;
+}
+
+#ekspirijens #tekst {
+  color: white;
+  margin-top: 3em;
+}
+#ekspirijens #span {
+  color: white;
+}
+#subscribe {
+  background-color: rgb(243, 238, 232);
+}
+
+#sectionIDSubscribe {
+  background-color: rgb(243, 238, 232);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 22px;
+  font-weight: lighter;
+  text-align: center;
+  color: gray;
+}
+
+body #subscribehr {
+  margin-bottom: 0;
+}
+.fas.fa-check {
+  color: rgb(27, 136, 187);
+}
+.fas.fa-times {
+  color: rgb(27, 136, 187);
+}
+
+.card-body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+  font-weight: lighter;
+  color: gray;
+  margin-top: 1em;
+}
+.card-body .btn {
+  color: white;
+  margin: 2em;
+  background-color: rgb(27, 136, 187);
+  border-radius: 20px;
+}
+
+#contactbtn {
+  color: white;
+  margin: 2em;
+  background-color: rgb(27, 136, 187);
+  border-radius: 20px;
+}
+#contactus label {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+  font-weight: lighter;
+  color: gray;
+  margin-top: 1em;
+}
+
+.modal-title {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 26px;
+  font-weight: lighter;
+  text-align: center;
+  color: gray;
+  padding-left: 1em;
+}
+.modal-header {
+  border-bottom: none;
+}
+#modalHr {
+  height: 1px;
+  border-top: 2px solid rgb(27, 136, 187);
+  width: 13em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: none;
+}
+#meni h2 {
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 7px;
+  font-size: 22px;
+  font-weight: lighter;
+  text-align: center;
+  color: white;
+  background-color: rgb(35, 35, 35);
+  margin-left: 4px;
+  margin-right: 2px;
+}
+#meni #nazivJela {
+  text-align: left;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  color: rgb(35, 35, 35);
+  background-color: white;
+  vertical-align: bottom;
+}
+
+#meni #opis {
+  text-align: left;
+  vertical-align: top;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 10px;
+  font-weight: normal;
+  color: gray;
+  background-color: white;
+}
+
+#meni #nazivJela #cijena {
+  text-align: right;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: white;
+}
+#meni #cijena .popovergumb {
+  font-size: 13px;
+  width: 90px;
+}
+
+#narudzba h2 {
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 7px;
+  margin-left: 2px;
+  margin-right: 4px;
+  font-size: 22px;
+  font-weight: lighter;
+  text-align: center;
+  color: white;
+  background-color: rgb(35, 35, 35);
+}
+#narudzba #nazivJela {
+  text-align: left;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  color: rgb(35, 35, 35);
+  background-color: white;
+  vertical-align: bottom;
+}
+
+#narudzba #opis {
+  text-align: left;
+  vertical-align: top;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 10px;
+  font-weight: normal;
+  color: gray;
+  background-color: white;
+}
+
+#narudzba #cijena {
+  text-align: left;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: white;
+}
+#narudzba #cijena #gumb {
+  font-size: 13px;
+  width: 90px;
+}
+.tableSekcije {
+  margin: 0.5em;
+}
+.modal-body::-webkit-scrollbar {
+  display: none;
+}
+.modal-backdrop {
+  opacity: 0.8 !important;
+}
+
+table #orderTable {
+  width: 50%;
+}
+
+#total {
+  text-align: left;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  color: gray;
+}
+#ukupniOrder {
+  color: red;
+}
+
+@media screen and (min-width: 768px) {
+  #meni {
+    position: absolute;
+    top: 0px;
+    bottom: 0;
+    left: 0;
+    width: 50%;
+    overflow-y: scroll;
+  }
+  #narudzba {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    overflow-y: scroll;
+    width: 50%;
+  }
+
+  .modal-body {
+    width: 11357x;
+    height: 750px;
+    background-size: cover;
+  }
+}
+
+@media (min-width: 576px) {
+  .gallery-block .zoom-on-hover:hover .image {
+    transform: scale(1.3);
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #sectionID {
+    margin-left: 2em;
+    margin-right: 2em;
+    text-align: center;
+    font-size: 20px;
+  }
+
+  #paralaxID {
+    margin-left: 2em;
+    margin-right: 2em;
+    text-align: center;
+    font-size: 20px;
+  }
+}

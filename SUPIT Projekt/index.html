@@ -1,0 +1,809 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+      integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.css"
+    />
+    <link rel="stylesheet" href="/css/bootstrap.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <title>SUPIT projekt TN</title>
+  </head>
+  <body>
+    <!--Navigacija-->
+    <nav class="navbar moj-navbar navbar-expand-md fixed-top py-2">
+      <div class="container">
+        <a href="#home" class="navbar-brand">
+          <img id="logo" src="img/logo.png" width="50" height="50" alt="" />
+          <button type="button" id="dohvatiJSON" class="btn btn-outline-danger " data-toggle="modal"
+          data-target="#orderModal">
+            O.R.D.E.R
+          </button>
+        </a>
+        <button
+          class="navbar-toggler"
+          data-toggle="collapse"
+          data-target="#navbarCollapse"
+        >
+          <span class="navbar-toggler-icon">
+            <i class="fas fa-bars"></i>
+          </span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav ml-auto">
+            <li class="navitem">
+              <a href="#Delivery" class="nav-link">Delivery</a>
+            </li>
+            <li class="navitem">
+              <a href="#MobApp" class="nav-link">Mobile App</a>
+            </li>
+            <li class="navitem">
+              <a href="#OurCities" class="nav-link">Our Cities</a>
+            </li>
+            <li class="navitem">
+              <a href="#subscribe" class="nav-link">Subscriptions</a>
+            </li>
+            <li class="navitem">
+              <a href="#contactus" class="nav-link">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!--Background-->
+
+    <div class="bg" id="home">
+      <div class="dark-overlay"></div>
+    </div>
+
+    <!--DELIVERY-->
+    <div id="Delivery">
+      <p>&nbsp;</p>
+    </div>
+    <section id="Delivery" class="my-5 text-center">
+      <div class="container">
+        <div class="row" id="top4">
+          <div class="col">
+            <div class="info-header mb-5">
+              <br />
+              <p class="text-secondary pb-3" id="sectionID">
+                DAILY OFFER TOP 4 MEALS - DELIVERY
+              </p>
+              <hr />
+              <P id="DeliveryText">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime
+                voluptatum itaque sed eius facilis tempora nesciunt temporibus,
+                possimus voluptatibus repudiandae!
+              </P>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-3 col-md-6 mb-4">
+            <div class="card">
+              <div class="card-body">
+                <i class="fas fa-pizza-slice fa-2x mb-4" id="fatop4"></i>
+                <h6 class="mb-4">HOKUREN KATAKURI</h6>
+                <p id="fatext">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Molestias magnam sit officia debitis itaque error accusamus
+                  repudiandae minus, ullam eum cupiditate eius, facilis adipisci
+                  rerum.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-4">
+            <div class="card">
+              <div class="card-body">
+                <i class="fas fa-pepper-hot fa-2x mb-4" id="fatop4"></i>
+                <h6 class="mb-4">ASIA FIRED RICE</h6>
+                <p id="fatext">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Molestias magnam sit officia debitis itaque error accusamus
+                  repudiandae minus, ullam eum cupiditate eius, facilis adipisci
+                  rerum.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-4">
+            <div class="card">
+              <div class="card-body">
+                <i class="fas fa-hamburger fa-2x mb-4" id="fatop4"></i>
+                <h6 class="mb-4">NONG SHIM SAVORY</h6>
+                <p id="fatext">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Molestias magnam sit officia debitis itaque error accusamus
+                  repudiandae minus, ullam eum cupiditate eius, facilis adipisci
+                  rerum.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-4">
+            <div class="card">
+              <div class="card-body">
+                <i class="fas fa-utensils fa-2x mb-4" id="fatop4"></i>
+                <h6 class="mb-4">NOODLES & GRAVY</h6>
+                <p id="fatext">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Molestias magnam sit officia debitis itaque error accusamus
+                  repudiandae minus, ullam eum cupiditate eius, facilis adipisci
+                  rerum.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--LIGHTBOX-->
+    <section class="gallery-block compact-gallery">
+      <div class="container-fluid">
+        <div>
+          <p class="text-secondary pb-3" id="sectionID">
+            SHOWCASE OF OUR FAVORITE MEALS
+          </p>
+          <hr />
+        </div>
+        <div class="row no-gutters">
+          <div class="col-md-6 col-lg-3 item zoom-on-hover">
+            <a class="lightbox" href="img/pic7.jpg">
+              <img class="img-fluid image" src="img/pic7.jpg" />
+            </a>
+          </div>
+          <div class="col-md-6 col-lg-3 item zoom-on-hover">
+            <a class="lightbox" href="img/pic9.jpg">
+              <img class="img-fluid image" src="img/pic9.jpg" />
+            </a>
+          </div>
+          <div class="col-md-6 col-lg-3 item zoom-on-hover">
+            <a class="lightbox" href="img/pic10.jpg">
+              <img class="img-fluid image" src="img/pic10.jpg " />
+            </a>
+          </div>
+          <div class="col-md-6 col-lg-3 item  zoom-on-hover">
+            <a class="lightbox" href="img/pic2.jpg">
+              <img class="img-fluid image" src="img/pic2.jpg" />
+            </a>
+          </div>
+          <div class="col-md-6 col-lg-3 item  zoom-on-hover">
+            <a class="lightbox" href="img/pic3.jpg">
+              <img class="img-fluid image" src="img/pic3.jpg" />
+            </a>
+          </div>
+          <div class="col-md-6 col-lg-3 item zoom-on-hover">
+            <a class="lightbox" href="img/pic4.jpg">
+              <img class="img-fluid image" src="img/pic4.jpg" />
+            </a>
+          </div>
+          <div class="col-md-6 col-lg-3 item  zoom-on-hover d-none d-lg-block">
+            <a class="lightbox" href="img/pic5.jpg">
+              <img class="img-fluid image" src="img/pic5.jpg" />
+            </a>
+          </div>
+          <div class="col-md-6 col-lg-3 item  zoom-on-hover d-none d-lg-block">
+            <img class="img-fluid image" src="img/pic6.jpg" />
+            <a class="lightbox" href="img/pic6.jpg"> </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- MOBILE APP HEAD -->
+    <div id="MobApp">
+        <p >&nbsp;</p>
+      </div>
+    <section>
+      <div class="container mt-5" id="MobApp">
+        <div class="row">
+          <div class="col text-center py-3" id="sectionID">
+            MOBILE APP - CARRY YOUR FOOD IN YOUR POCKET
+          </div>
+        </div>
+      </div>
+      <hr />
+    </section>
+
+    <!-- MOBILE APP SECTION -->
+    <section id="explore-section" class="py-3">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6" id="mobfotka">
+            <img
+              src="img/phone-final.png"
+              alt="phone"
+              class="img-fluid mb-3 ml-5"
+            />
+          </div>
+          <div class="col-md-6">
+            <div class="d-flex mb-3 mt-5">
+              <div class="plavakocka">
+                <div class="broj">
+                  <h3>1</h3>
+                </div>
+              </div>
+              <div class="p-2 mb-4 ml-3" id="apptext">
+                Download the app
+              </div>
+            </div>
+            <div class="d-flex mb-3 mt-5">
+              <div class="plavakocka">
+                <div class="broj">
+                  <h3>2</h3>
+                </div>
+              </div>
+              <div class="p-2 mb-4 ml-3" id="apptext">
+                Create account
+              </div>
+            </div>
+            <div class="d-flex mb-3 mt-5">
+              <div class="plavakocka">
+                <div class="broj">
+                  <h3>3</h3>
+                </div>
+              </div>
+              <div class="p-2 mb-4 ml-3" id="apptext">
+                Place order
+              </div>
+            </div>
+            <div class="d-flex mb-5">
+              <div>
+                <img
+                  src="img/app-download.png"
+                  alt="appstore"
+                  class="mr-2 mt-1"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- OUR CITIES HEAD-->
+    <div id="OurCities">
+        <p>&nbsp;</p>
+      </div>
+    <section>
+      <div class="container mt-5">
+        <div class="row">
+          <div class="col text-center py-3" id="sectionID">
+            YOU CAN FIND US IN ALL PARTS OF THE WORLD
+            <br />
+            THESE ARE SOME OF THE PLACES WHERE YOU CAN FIND US
+          </div>
+        </div>
+      </div>
+      <hr />
+    </section>
+    <!-- OUR CITIES -->
+    <section>
+      <div class="container">
+        <div class="row" id="ourcities">
+          <div class="col-md-3">
+            <img src="img/newyork.jpg" alt="" />
+            <h4 class="mt-4 mb-3">NEW YORK</h4>
+            <div>
+              <span>
+                <i class="fas fa-user-alt"></i>
+                &nbsp; 244 Madison Ave
+              </span>
+            </div>
+            <div>
+              <span>
+                <i class="fas fa-envelope"></i>
+                &nbsp;
+                <a href="mailto:ny_food.gmail.com">ny_food.gmail.com</a>
+              </span>
+            </div>
+            <div>
+              <span>
+                <i class="fab fa-twitter"></i>
+                &nbsp;
+                <a href="twitter.com">@nyfood</a>
+              </span>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <img src="img/london.jpg" alt="" />
+            <h4 class="mt-4 mb-3">LONDON</h4>
+            <div>
+              <span>
+                <i class="fas fa-user-alt"></i>
+                &nbsp; St. James 528
+              </span>
+            </div>
+            <div>
+              <span>
+                <i class="fas fa-envelope"></i>
+                &nbsp;
+                <a href="mailto:ny_food.gmail.com">london_food.gmail.com</a>
+              </span>
+            </div>
+            <div>
+              <span>
+                <i class="fab fa-twitter"></i>
+                &nbsp;
+                <a href="twitter.com">@londonfood</a>
+              </span>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <img src="img/paris.jpg" alt="" />
+            <h4 class="mt-4 mb-3">PARIS</h4>
+            <div>
+              <span>
+                <i class="fas fa-user-alt"></i>
+                &nbsp; Puteaux 92800
+              </span>
+            </div>
+            <div>
+              <span>
+                <i class="fas fa-envelope"></i>
+                &nbsp;
+                <a href="mailto:ny_food.gmail.com">paris_food.gmail.com</a>
+              </span>
+            </div>
+            <div>
+              <span>
+                <i class="fab fa-twitter"></i>
+                &nbsp;
+                <a href="twitter.com">@parisfood</a>
+              </span>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <img src="img/tokyo.jpg" alt="" />
+            <h4 class="mt-4 mb-3">TOKYO</h4>
+            <div>
+              <span>
+                <i class="fas fa-user-alt"></i>
+                &nbsp; Shibuy-ku Tokyo
+              </span>
+            </div>
+            <div>
+              <span>
+                <i class="fas fa-envelope"></i>
+                &nbsp;
+                <a href="mailto:ny_food.gmail.com">tokyo_food.gmail.com</a>
+              </span>
+            </div>
+            <div>
+              <span>
+                <i class="fab fa-twitter"></i>
+                &nbsp;
+                <a href="twitter.com">@tokyofood</a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Doživljalji -->
+    <div class="paralax-background mt-5">
+      <div class="paralax-overlay">
+        <br /><br /><br /><br /><br />
+        <div class="row">
+          <div class="col text-center py-3" id="paralaxID">
+            READ THE EXPERIENCES OF OUR CUSTOMERS
+          </div>
+        </div>
+        <hr />
+        <div class="container">
+          <div class="row" id="ekspirijens">
+            <div class="col-md-4 ">
+              <i class="fas fa-quote-left"></i>
+              <p id="tekst">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis
+                dicta facere voluptas ab temporibus fugit odit omnis accusamus
+                non nisi?
+              </p>
+              <div>
+                <span id="span">
+                  <img src="img/Dani.jpg" alt="" class="mr-3" />
+                  &nbsp;&nbsp; Dani
+                </span>
+              </div>
+            </div>
+            <div class="col-md-4 d-none d-md-block">
+              <i class="fas fa-quote-left"></i>
+              <p id="tekst">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis
+                dicta facere voluptas ab temporibus fugit odit omnis accusamus
+                non nisi?
+              </p>
+              <div>
+                <span id="span">
+                  <img src="img/Gogo.jpg" alt="" class="mr-3" />
+                  &nbsp;&nbsp; Gogo
+                </span>
+              </div>
+            </div>
+            <div class="col-md-4 d-none d-lg-block">
+              <i class="fas fa-quote-left "></i>
+              <p id="tekst">
+                Korisnik je samo rekao: <br />
+                Koliko je ovo kul? <br />
+                Vrlo KUL!!
+              </p>
+              <div>
+                <span id="span">
+                  <img src="img/Boki.jpg" alt="" class="mr-3" />
+                  &nbsp;&nbsp; Boki
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Subscribe head -->
+
+    <section class="py-5" id="sectionIDSubscribe">
+      <div class="container" >
+        <div class="row" >
+          <div class="col text-center py-3" >
+            SUBSCRIBE TO SAVE MONEY
+          </div>
+        </div>
+      </div>
+      <hr id="subscribehr" />
+    </section>
+    <!-- Subscribe -->
+    <section id="subscribe" class="py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-md-4 mb-4">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="mb-2">TERMINATOR</h5>
+                <p>
+                  <span
+                    style="color:rgb(27, 136, 187);font-size: 50px;font-weight: lighter"
+                    >$219</span
+                  ><span
+                    style="color:rgb(27, 136, 187);font-size: 16px;font-weight: lighter"
+                  >
+                    / month </span
+                  ><br />
+                  <span style="color:gray;font-size: 13px;font-weight: lighter"
+                    >7.30$ / per meal</span
+                  >
+                </p>
+
+                <div>
+                  <span>
+                    <i class="fas fa-check"></i>
+                    &nbsp; 1 meal everyday
+                  </span>
+                </div>
+                <div>
+                  <span>
+                    <i class="fas fa-check"></i>
+                    &nbsp; Order 24/7
+                  </span>
+                </div>
+                <div>
+                  <span>
+                    <i class="fas fa-check"></i>
+                    &nbsp; Access to new meals
+                  </span>
+                </div>
+                <div>
+                  <span>
+                    <i class="fas fa-check"></i>
+                    &nbsp; Free delivery
+                  </span>
+                </div>
+                <div class="row">
+                  <div class="col text-center">
+                    <button class="btn mt-5 mb-4">
+                      Sign up now
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 mb-4">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="mb-2">EATER</h5>
+                <p>
+                  <span
+                    style="color:rgb(27, 136, 187);font-size: 50px;font-weight: lighter"
+                    >$99</span
+                  ><span
+                    style="color:rgb(27, 136, 187);font-size: 16px;font-weight: lighter"
+                  >
+                    / month </span
+                  ><br />
+                  <span style="color:gray;font-size: 13px;font-weight: lighter"
+                    >6.60$ / per meal</span
+                  >
+                </p>
+
+                <div>
+                  <span>
+                    <i class="fas fa-check"></i>
+                    &nbsp; 1 meal 15 days/month
+                  </span>
+                </div>
+                <div>
+                  <span>
+                    <i class="fas fa-check"></i>
+                    &nbsp; Order 24/7
+                  </span>
+                </div>
+                <div>
+                  <span>
+                    <i class="fas fa-check"></i>
+                    &nbsp; Pristup novim jelima
+                  </span>
+                </div>
+                <div>
+                  <span>
+                    <i class="fas fa-check"></i>
+                    &nbsp; Besplatna dostava
+                  </span>
+                </div>
+                <div class="row">
+                  <div class="col text-center">
+                    <button class="btn mt-5 mb-4">
+                      Sign up now
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 mb-4">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="mb-2">STARTER</h5>
+                <p>
+                  <span
+                    style="color:rgb(27, 136, 187);font-size: 50px;font-weight: lighter"
+                    >$9</span
+                  ><span
+                    style="color:rgb(27, 136, 187);font-size: 16px;font-weight: lighter"
+                  >
+                    / month </span
+                  ><br /><br />
+                </p>
+
+                <div>
+                  <span>
+                    <i class="fas fa-check"></i>
+                    &nbsp; 1 meal
+                  </span>
+                </div>
+                <div>
+                  <span>
+                    <i class="fas fa-check"></i>
+                    &nbsp; Order from 8 to 24
+                  </span>
+                </div>
+                <div>
+                  <span>
+                    <i class="fas fa-times"></i>
+                    &nbsp;
+                  </span>
+                </div>
+                <div>
+                  <span>
+                    <i class="fas fa-check"></i>
+                    &nbsp; Free Delivery
+                  </span>
+                </div>
+                <div class="row">
+                  <div class="col text-center">
+                    <button class="btn mt-5 mb-4">
+                      Sign up now
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- contact us head -->
+    <div id="contactus">
+        <p>&nbsp;</p>
+      </div>
+    <section>
+      <div class="container mt-5">
+        <div class="row">
+          <div class="col text-center py-3" id="sectionID">
+            CONTACT US
+          </div>
+        </div>
+      </div>
+      <hr />
+    </section>
+    <!-- CONTACT US -->
+    <section id="contactus">
+      <form action="http://www.fulek.com/VUA/SUPIT/ContactUs" method="get">
+      <div class="container">
+                <table class="table table-borderless">
+                  <tr>
+                    <td>
+                      <label for="txtIme">Name:</label>
+                    </td>
+                    <td>
+                      <div class="input-group">
+                        <input
+                          type="text"
+                          class="form-control"
+                          name="name"
+                          required
+                        />
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <label for="txtemail">E-mail:</label>
+                    </td>
+                    <td>
+                      <div class="input-group">
+                        <input
+                          type="email"
+                          class="form-control"
+                          name="email"
+                          required
+                        />
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <label for="txtdatumRodjenja">Message Importance</label>
+                    </td>
+                    <td>
+                        <div class="input-group">
+                            <select class="form-control" name=importance>
+                              <option value="1">High</option>
+                              <option value="2">Medium</option>
+                              <option value="3">Low</option>
+                            </select>
+                          </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <label for="txtomiljenaBoja"> Receive newsletter:</label>
+                    </td>
+                    <td>
+                        <div class="input-group">
+                            <input type="checkbox" class="form-check-input" name="newsletter" value="true">
+                            <label class="form-check-label" >Yes</label>
+                          </div>
+                    </td>
+                  </tr>
+                  <tr>
+                      <td>
+                        <label for="txtIme">Your message:</label>
+                      </td>
+                      <td>
+                        <div class="input-group">
+                            <textarea class="form-control" name="message" placeholder="Maximum 200 characters..." id="exampleFormControlTextarea1" rows="8"></textarea>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr>
+                  <tr>
+                    <td>&nbsp</td>
+                    <td>
+                      <input
+                        type="submit"
+                        class="btn"
+                        value="&nbsp;&nbsp;&nbsp;&nbsp;Send&nbsp;&nbsp;&nbsp;&nbsp;"
+                        id="contactbtn"
+                      />
+                    </td>
+                  </tr>
+                </table>
+              </div>
+          </tr>
+        </table>
+      </div>
+    </form>
+    </section>
+
+    <!-- ORDER MODAL -->
+    <div
+    class="modal fade text-dark"
+    data-keyboard="false"
+    data-backdrop="static"
+    id="orderModal"
+  >
+    <div class="modal-dialog modal-xl">
+      <div class="modal-content">
+        <div class="modal-header text-center">
+          <div class="modal-title w-100">ORDER & EAT</div>
+          <button class="close" data-dismiss="modal">
+            <span>&times;</span>
+          </button>
+        </div>
+        <hr id="modalHr"/>
+        <div class="modal-body">
+          <div>
+            <div id="meni"></div>
+          </div>
+          <div >
+            <div id="narudzba">
+              <h2>YOUR ORDERS</h2>
+              <table id="orderTable" class="table">
+                  <thead>
+                    <tr>
+                      <th scope="col" style="width:10%">ID</th>
+                      <th scope="col" style="width:50%">TITLE</th>
+                      <th scope="col" style="width:20%">QUANTITY</th>
+                      <th scope="col" style="width:20%">PRICE</th>
+                    </tr>
+                  </thead>
+                  <tbody id="tbodyOrder">
+                  </tbody>
+                  <tfoot>
+                    <tr>
+                      <td></td>
+                      <td></td>
+                      <td id="total">TOTAL:</td>
+                      <td id="ukupniOrder"></td>
+                    </tr>
+                  </tfoot>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="/js/jquery-3.4.1.min.js"></script>
+  <script src="js/bootstrap.bundle.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
+    <!-- galerija slika -->
+    <script>
+      baguetteBox.run(".compact-gallery", { animation: "slideIn" });
+    </script>
+    <!-- animacija moba kod scrolla -->
+    <script>
+      window.sr = ScrollReveal();
+      sr.reveal("#mobfotka", {
+        duration: 2500,
+        origin: "bottom",
+        distance: "300px"
+      });
+    </script>
+    <!-- Animacija gradova -->
+    <script>
+      window.sr = ScrollReveal();
+      sr.reveal("#ourcities", {
+        duration: 2500,
+        origin: "bottom",
+        distance: "300px"
+      });
+    </script>
+    <!-- mijenjanje boje navigacje kod scrolla -->
+    <script>
+      $(window).scroll(function() {
+        $("nav").toggleClass("scrolled", $(this).scrollTop() > 600);
+      });
+    </script>
+      <script type="text/javascript" src="js/main.js"></script>
+  </body>
+</html>
